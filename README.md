@@ -3,7 +3,7 @@ Further to my submission I have improved the code. We had hit some issues in ite
 
 All the data provided in the [Election results](https://github.com/guardian/coding-exercises/tree/main/election-results) excercise has now also being used.
 
-This code can be further improved with the use of classes. The use of nested for loops is suboptimal as it makes the code brittle and harder to maintain. My preferred approach will be the use of classes , pesudo-code below:
+This code can be further improved with the use of classes. The use of nested for loops is suboptimal as it makes the code brittle and harder to maintain. My preferred approach will be the use of classes which will also be more performant than for-loops, pesudo-code below:
 
     class  Constituency_results:
     	def  __init__(self, sym, votes) -> None:
